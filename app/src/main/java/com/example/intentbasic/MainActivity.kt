@@ -17,6 +17,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         //println("Estoy OnCreate() $nombre")
+        //cambio
         button= findViewById(R.id.main_continue_button)
         nombreInput=findViewById(R.id.editNombre)
         edadInput=findViewById(R.id.editTextNumber)
